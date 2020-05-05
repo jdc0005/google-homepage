@@ -1,0 +1,38 @@
+body{
+    font-family:arial,sans-serif;
+    font-size: 13px;
+}
+
+#search-box{
+
+}
+#search-background{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+#company{
+    display: block;
+}
+#about{
+    display: inline-block;
+    padding: 15px;
+}
+#store{
+    display: inline-block;
+    padding: 15px;
+}
+.header-link{
+    text-decoration-line: none;
+    color:#000;
+}
+#tools{
+    display:flex;
+    float:right;
+}
