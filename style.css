@@ -4,9 +4,6 @@ body{
 }
 
 #search-box{
-
-}
-#search-background{
     background: #fff;
     display: flex;
     border: 1px solid #dfe1e5;
@@ -16,8 +13,21 @@ body{
     height: 44px;
     margin: 0 auto;
     width: 482px;
+    padding-top:10px;
 }
-#company{
+/*#search-background{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    padding-top:10px;
+}*/
+#header{
     display: block;
 }
 #about{
@@ -32,7 +42,47 @@ body{
     text-decoration-line: none;
     color:#000;
 }
-#tools{
-    display:flex;
-    float:right;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+button{
+    border-color: #4285f4;
+    padding:5px 10px 5px 10px !important;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border:none;
+    margin-top:5px;
 }
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 110px;
+  }
+  textarea:focus, input:focus{
+    outline: none;
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: darkgray;
+    text-align: center;
+  border-top-color:black;
+  }
